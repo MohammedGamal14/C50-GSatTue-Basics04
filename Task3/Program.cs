@@ -24,6 +24,13 @@
             PrintWelcomeMessage();
             #endregion
 
+            #region Q4
+            /* Write a method PrintBookTitle(string title) that prints "Book title: " + title.
+               Call it with "Clean Code". */
+            PrintBookTitle("Clean Code");
+            #endregion
+
+
 
 
 
