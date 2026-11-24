@@ -89,11 +89,11 @@
             #endregion
 
 
-
-
-
-
-
+            #region Q12
+            /* Write a method PrintAllTitles(params string[] titles) that prints each title
+               on its own line. Call it with three book titles. */
+            PrintAllTitles("Clean Code", "The Pragmatic Programmer", "Refactoring");
+            #endregion
 
         }
 
@@ -142,6 +142,14 @@
         static void PrintBookInfo(string title, int pages = 300)
         {
             Console.WriteLine(title + " - " + pages + " pages");
+        }
+
+        static void PrintAllTitles(params string[] titles)
+        {
+            foreach (string currentTitle in titles)
+            {
+                Console.WriteLine(currentTitle);
+            }
         }
 
     }
