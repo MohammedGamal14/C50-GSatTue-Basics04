@@ -57,6 +57,14 @@
             Console.WriteLine(refPages);
             #endregion
 
+            #region Q8
+            /* Write a method ReplaceArray(ref double[] prices) that replaces prices entirely
+               with a new array { 10.0, 12.5, 15.0 }. Call it and print prices.Length afterward. */
+            double[] originalPrices = { 25.5, 40.0 };
+            ReplaceArray(ref originalPrices);
+            Console.WriteLine(originalPrices.Length);
+            #endregion
+
 
 
 
