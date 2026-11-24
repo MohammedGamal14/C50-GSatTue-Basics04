@@ -48,6 +48,15 @@
             Console.WriteLine(discountPrices[0]);
             #endregion
 
+            #region Q7
+            /* Rewrite the method from question 5 as AddBonusPagesByRef(ref int pages) using ref.
+               Call it and print pages afterward.
+               Expected: 450, because ref passes the variable itself, not a copy. */
+            int refPages = 400;
+            AddBonusPagesByRef(ref refPages);
+            Console.WriteLine(refPages);
+            #endregion
+
 
 
 
