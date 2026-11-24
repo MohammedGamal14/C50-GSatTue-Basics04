@@ -30,6 +30,14 @@
             PrintBookTitle("Clean Code");
             #endregion
 
+            #region Q5
+            /* Write a method AddBonusPages(int pages) that adds 50 to pages.
+               Call it with int pages = 400; and print pages afterward.
+               Expected: 400, because int is passed by value (the method changes only a copy). */
+            int pages = 400;
+            AddBonusPages(pages);
+            Console.WriteLine(pages);
+            #endregion
 
 
 
