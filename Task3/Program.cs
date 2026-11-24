@@ -39,6 +39,16 @@
             Console.WriteLine(pages);
             #endregion
 
+            #region Q6
+            /* Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0].
+               Call it with double[] prices = { 25.5, 40.0 }; and print prices[0] afterward.
+               Expected: 20.5, because arrays are reference types (the method changes the same array). */
+            double[] discountPrices = { 25.5, 40.0 };
+            ApplyDiscount(discountPrices);
+            Console.WriteLine(discountPrices[0]);
+            #endregion
+
+
 
 
 
